@@ -1,11 +1,12 @@
 .filter { display: inline !important; color: #F89E43 !important; font-weight: bold !important; cursor: help; }
 
 .bbtheme_hook {
+	background: #f3f3f3; 
 	color: #84391C;
 	display: block;
 	padding: 2px 5px;
 	margin: 10px;
-	border: 1px solid;
+	border: 1px solid #ddd;
 	overflow: hidden;
 	word-wrap: break-word;
 	cursor: help;
