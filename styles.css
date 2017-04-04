@@ -1,0 +1,48 @@
+.filter { display: inline !important; color: #F89E43 !important; font-weight: bold !important; cursor: help; }
+
+.bbtheme_hook {
+	color: #84391C;
+	display: block;
+	padding: 2px 5px;
+	margin: 10px;
+	border: 1px solid;
+	overflow: hidden;
+	word-wrap: break-word;
+	cursor: help;
+}
+
+.wordpress_hook {
+	color: #21759B;
+	display: block;
+	padding: 2px 5px;
+	margin: 10px;
+	border: 1px solid;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+.bbtvhg-overlayed .bbtheme_hook {
+	z-index: 9998;
+	color: white;
+	display: inline;
+	position: absolute;
+	background: #84391C;
+	opacity: .8;
+}
+	.bbtvhg-overlayed .bbtheme_hook:hover {
+		z-index: 9999;
+		opacity: 1;
+	}
+
+.bbtvhg-overlayed .wordpress_hook {
+	z-index: 9998;
+	color: white;
+	display: inline;
+	position: absolute;
+	background: #21759B;
+	opacity: .8;
+}
+	.bbtvhg-overlayed .wordpress_hook:hover {
+		z-index: 9999;
+		opacity: 1;
+	}
